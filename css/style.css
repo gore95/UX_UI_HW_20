@@ -6,6 +6,19 @@ h1 {
     color: bisque;
 }
 
+h2{
+font-weight: 300;
+font-size: medium;
+text-transform: uppercase;
+color: rgb(71, 71, 71);
+}
+
+
+h4 {
+text-transform: uppercase;
+color: rgb(255, 255, 255);
+}
+
 /* HERO */
 
 .hero {
@@ -21,11 +34,43 @@ h1 {
     
 }
 
-.content {
-    position:absolute;
-    left: 75%;
-    height: 10px;
-    width: 10%;
-    
+#demobox {
+    background-color:antiquewhite ;
+    padding: 150px ;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+  }
 
+#p {
+    color: rgb(255, 255, 255);
+    text-indent: 100px;
+  }
+
+  /* section2 */
+
+  #colorbox{
+      background-color: rgb(220, 195, 162);
+      height: 50%;
+      width: 100%;
+      position: absolute;
+  }
+
+  /* section3 */
+
+  .glazes{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-75%, 700%);
+    background-color: rgba(255, 255, 255, 0.719);
+}
+
+
+
+#card{
+    position: relative;
+    top: 10%;
+    left: 20%
 }
